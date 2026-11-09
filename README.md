@@ -12,7 +12,7 @@
 
 ### 1. 选择一个领域，明确一个问题
 
-先阅读[隐私规则](docs/privacy.md)和[快速开始](docs/quick-start.md)，再从下方九大领域中选择当前要改善的事项。不必同时启用全部领域，也不需要一次提供全部生活资料。
+先阅读[隐私规则](docs/privacy.md)和[快速开始](docs/quick-start.md)，再从下方十大领域中选择当前要改善的事项。不必同时启用全部领域，也不需要一次提供全部生活资料。
 
 ### 2. 在仓库之外建立独立私有空间
 
@@ -55,7 +55,7 @@
 
 如需贡献，只提交重新编写的通用方法、空白模板或从零构造的虚构示例，按[贡献指南](CONTRIBUTING.md)检查；不要上传个人使用记录、原始聊天或填写后的模板。
 
-## 九大生活领域
+## 十大生活领域
 
 | 领域 | 主要问题 | 方法论入口 |
 | --- | --- | --- |
@@ -68,8 +68,9 @@
 | 读书 | 如何结合历史与目标，建议书籍、阅读时长和方法 | [读书指南](domains/07-reading/README.md) |
 | 出行、旅游 | 如何评估是否参加、优化行程与时间使用并复盘 | [出行指南](domains/08-travel/README.md) |
 | 交友见面 | 如何评估活动、控制负担、协调安排与选择合意记录 | [见面指南](domains/09-social/README.md) |
+| 手机屏幕使用时间 | 如何结合时长、用途、频率与重点时段，形成阶段建议和周期调整 | [屏幕使用指南](domains/10-screen-time/README.md) |
 
-日常作息是统筹层，连接月、周、日及其他八个领域；各领域在私有空间积累必要记录后形成阶段建议。出行旅游与见面按事件触发，先评估是否参加和如何调整，再安排与复盘。所有真实记录和设备数据仍在仓库之外。
+日常作息是统筹层，连接月、周、日及其他九个领域；各领域在私有空间积累必要记录后形成阶段建议。出行旅游与见面按事件触发，先评估是否参加和如何调整，再安排与复盘。手机屏幕使用同时考虑用途和情境，不以时长越少越好为统一目标。所有真实记录和设备数据仍在仓库之外。
 
 ## 共用方法
 
@@ -87,13 +88,14 @@
 - 提示词：[通用工作流](prompts/core.md)、[跨领域规划](prompts/planning.md)、[复盘与方案评审](prompts/review.md)。
 - 空白模板：[个性化配置](templates/personal-setup.md)、[日计划](templates/daily-plan.md)、[周复盘](templates/weekly-review.md)、[单变量尝试](templates/experiment.md)、[自动化约定](templates/automation-contract.md)、[信息核实表](templates/source-check.md)。
 - 周期与综合模板：[月计划](templates/monthly-plan.md)、[周计划](templates/weekly-plan.md)、[阶段总结](templates/period-review.md)、[活动评估](templates/activity-review.md)。
+- 专项记录与复盘：[手机屏幕使用时间](templates/screen-time-review.md)。
 - [纯虚构流程演示](examples/fictional-walkthrough.md)：展示如何组合这些材料。
 
 ## 仓库结构
 
 ```text
 docs/        通用原则、隐私、协调、自动化与建设路线
-domains/     九个领域的操作指南
+domains/     十个领域的操作指南
 prompts/     可复制到不同 AI 工具的提示词
 templates/   仅含占位符的空白模板
 examples/    明确标记的纯虚构方法演示

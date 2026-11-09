@@ -14,6 +14,7 @@ from urllib.parse import unquote, urlsplit
 DOMAINS = (
     "01-daily-routine", "02-sleep", "03-nutrition", "04-hydration",
     "05-fitness", "06-commute", "07-reading", "08-travel", "09-social",
+    "10-screen-time",
 )
 REQUIRED = {
     "README.md", "AGENTS.md", "CONTRIBUTING.md", ".gitignore",
@@ -25,6 +26,7 @@ REQUIRED = {
     "templates/experiment.md", "templates/automation-contract.md",
     "templates/source-check.md", "examples/fictional-walkthrough.md",
     "scripts/check_repository.py", ".github/workflows/check.yml",
+    "templates/screen-time-review.md",
 } | {f"domains/{domain}/README.md" for domain in DOMAINS}
 SPECIAL = {
     "README.md", "AGENTS.md", "CONTRIBUTING.md", ".gitignore",
